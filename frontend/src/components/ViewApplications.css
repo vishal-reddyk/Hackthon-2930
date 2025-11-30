@@ -1,0 +1,98 @@
+/* src/components/ViewApplications.css */
+.view-applications-container {
+  padding: 40px;
+  background-color: #f4f6f8;
+  min-height: calc(100vh - 80px);
+  color: #333;
+  width: 1150px;
+  margin: 0 10px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.back-button i {
+  margin-right: 8px;
+}
+
+.view-applications-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.position-details-summary {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.applications-list {
+  list-style: none;
+  padding: 0;
+}
+
+.application-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicant-info h4 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.applicant-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.application-status-badge .status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status.pending {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.reviewed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.review-button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.no-applications {
+  text-align: center;
+  color: #888;
+  margin-top: 50px;
+}

@@ -1,0 +1,113 @@
+/* src/components/ReviewApplication.css */
+.review-application-container {
+  padding: 40px;
+  background-color: #f4f6f8;
+  min-height: calc(100vh - 80px);
+  color: #333;
+  width: 1600px;
+  margin: 0 10px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.back-button i {
+  margin-right: 8px;
+}
+
+.review-application-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.application-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-item strong {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.detail-item span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.experience-section {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-section h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+}
+
+.experience-section p {
+  line-height: 1.5;
+  color: #444;
+}
+
+.review-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.accept-button, .reject-button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accept-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.accept-button:hover {
+  background-color: #218838;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+}

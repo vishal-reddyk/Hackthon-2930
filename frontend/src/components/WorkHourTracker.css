@@ -1,0 +1,33 @@
+/* src/components/WorkHourTracker.css */
+.work-hour-tracker-container {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.work-hour-tracker-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.work-hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.work-hours-table th,
+.work-hours-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.work-hours-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.role-select-container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.role-buttons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.role-btn {
+  padding: 14px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.student-btn {
+  background-color: #4caf50;
+}
+
+.admin-btn {
+  background-color: #2196f3;
+}
